@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="date"></h1>
+        <h2 id="time"></h2>
+    </div>
+    
+  
+    <script>
+        const date = document.getElementById("date");
+        const time = document.getElementById("time");
+
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        const showTime = () => {
+            const d = new Date();
+            date.innerHTML = d.getDate() + "/" + months[d.getMonth()] + "/" + d.getFullYear();
+            time.innerHTML = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+        }
+        showTime();
+
+        setInterval(showTime, 1000);
+    </script>
+
+</body>
+</html>

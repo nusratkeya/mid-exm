@@ -1,0 +1,49 @@
+@import './bootstrap.css';
+
+body {
+    background-color: #e3f1de;
+}
+.accordion { 
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.accordion-item {
+    background-color: rgb(245, 242, 251);
+    margin: 5px 0px;
+}
+.accordion-header {
+    padding: 20px 30px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.accordion-header::after {
+    content: "\002B";
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+}
+ 
+.accordion-header.active::after {
+    content: "\2212";
+}
+.accordion-body {
+    display: none;
+    padding: 15px 30px 20px;
+    border-top: 1px solid lightblue;
+}
+.accordion-header.active + .accordion-body {
+    display: block;
+}
+
+
+

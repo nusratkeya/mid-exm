@@ -1,0 +1,44 @@
+@import './bootstrap.css';
+
+body {
+    background-color: #f1faee;
+}
+h1 {
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10px;    
+}
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+h3{
+    background-color: skyblue;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;   
+}
+.tab-content {
+    background-color: white;
+    padding: 20px 30px;
+}
+.tab-content div {
+    display: none;
+}
+.tab-content .active {
+    display: block;
+}
+.tabs .active {
+    background-color: blue;
+    color: red;
+}
+

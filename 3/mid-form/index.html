@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="min-h-screen py-30" style="background:oklch(70.2% 0.183 293.541);">
+        <div class="container mx-auto">
+            <div class="w-8/12 bg-white mx-auto">
+                <div class="py-22 px-12 ">
+                    <h1 class="text-3xl mb-10">Restaurant Reservation form
+                    </h1>
+                    <form action="#">
+                        <div class="grid grid-cols-1 grid-cols-2 gap-5 mb-5">
+                            <div class="flex flex-col gap-2">
+                                <label for="">Name</label>
+                                <input type="text" placeholder="First" class="border border-indigo-400 py-2 px-2 rounded-sm">
+                            </div>
+   
+                            <div class="flex flex-col gap-2 mt-8 ">
+                                <input type="text" placeholder="Last" class="border border-indigo-400 py-2 px-2 rounded-sm ">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-5 mb-5">
+                            <div class="flex flex-col gap-2">
+                                <label for="">Email</label>
+                                <input type="text" placeholder="" class="border border-indigo-400 py-2 px-2 rounded-sm">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="">Phone</label>
+                                <input type="text" placeholder="#####" class="border border-indigo-400 py-2 px-2 rounded-sm">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-5 mb-5">
+                            <div class="flex flex-col gap-2">
+                                <label for="">Reservation Date</label>
+                                <input type="date" placeholder="" class="border border-indigo-400 py-2 px-2 rounded-sm">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label for="">Reservation Time</label>
+                                <input type="time" placeholder="" class="border border-indigo-400 py-2 px-2 rounded-sm">
+                            </div>
+                        </div>
+                            <div class="flex flex-col gap-2 mb-4">
+                                <label for="">How many person will you be with</label>
+                                <input type="text" placeholder="" class="border border-indigo-400 py-2 px-2 rounded-sm">
+                            </div>
+                            <div class="flex flex-col gap-2 mb-4">
+                                <label for="">Notes</label>
+                                <input type="text" placeholder="" class="border border-indigo-400 py-8 px-2 rounded-sm">
+                            </div>  
+                            <button class="w-full bg-indigo-500 text-white font-semibold py-2 rounded-lg cursor-pointer">Send</button>                                     
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
