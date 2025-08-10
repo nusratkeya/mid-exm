@@ -1,35 +1,217 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-    <nav class="py-4 px-25 flex justify-between items-center bg-white">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- nav start here -->
+    <nav class="py-4 px-24 flex justify-between items-center bg-white">
   
-    <div class="flex gap-6 text-x text-gray-800">
-      <a href="#" class="">Home</a>
-      <a href="#" class="">About</a>
-      <a href="#" class="">Contact</a>
-    </div>
+        <div class="flex pl-2 gap-6 text-base text-gray-800">
+          <a href="#" class="no-underline">Home</a>
+          <a href="#" class="no-underline">About</a>
+          <a href="#" class="no-underline">Contact</a>
+        </div>
   
-    <div class="text-lg font-medium text-gray-900">Landing</div>
+        <div class="text-lg font-medium text-gray-900">
+          <a href="#" class="no-underline">Landing</a>
+        </div>
 
-    <div>
-      <button class="bg-blue-600 text-white text-sm px-6 py-3 rounded hover:bg-blue-700 transition">Buy Now</button>
+        <div>
+          <button class="bg-blue-600 text-white text-sm px-4 py-2 rounded hover:bg-blue-700 transition">Buy Now</button>
+        </div>
+
+    </nav>
+
+  <!-- nav end here -->
+
+  <!-- intto section start -->
+
+  <section id="intro container-fluid">
+    <div class="flex flex-col md:flex-row items-center px-10">
+      <div class="hero flex-4 ps-15">
+        <h1 class="text-5xl font-bold text-gray-800 leading-14 mb-4">
+          Introduce Your Product Quickly & Effectively</h1>
+        <p class="text-lg pr-20">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. Aenean  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        </p>
+
+          <div class="flex space-x-4 mt-6">
+            <button class="bg-blue-600 text-white text-sm px-4 py-1 rounded hover:bg-blue-700 transition">
+              Purchase Ui Kit
+            </button>
+            <button class="text-blue-700 border-1 text-sm px-3 py-1 rounded hover:bg-blue-700 transition hover:text-white">
+              Lear More
+            </button>
+          </div>
+      </div>
+
+        <div class="hero-pic flex-1 md:mt-0 flex justify-end">
+          <img width="1023" height="1112" src="./images/1.png" class="max-w-xl">
+        </div>
+        
     </div>
-</nav>
+  </section>  
 
-  </body>
-</html>
+  <!--into section end here -->
 
+  <!-- light part start here -->
 
-    
+  <section id="light">
+    <div class="light flex justify-content-center md:flex-row items-center py-20 px-10">
+      <div class="light1 flex-1 ps-15">
+        <h1 class="text-5xl font-bold text-gray-800  mb-4">
+          Light, Fast & Powerful
+        </h1>
+        <p class="text-lg pr-8">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing  elit. Aenean  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        </p>
+        <div class="title flex flex-row gap-8 mt-10 pr-5 ">
+          <div class="title1">
+            <img src="./images/shape.png" alt="">
+            <h1 class="font-medium text-gray-900 mt-4 mb-3">Title Goes Here</h1>
+            <P class="text-sm">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            </P>
+          </div>
+          <div class="title2">
+            <img src="./images/shape.png" alt="">
+            <h1 class="font-medium text-gray-900 mt-4 mb-3">Title Goes Here</h1>
+            <P class="text-sm">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            </P>
+          </div>
+        </div>
+      </div>
+      <div class="light-pic flex-1 md:mt-0 flex justify-center">
+        <img src="./images/2.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- light part end here -->
 
-    <script src="./count.js"></script>
-    <script src="./bootstrap.js"></script>
+<!-- light part 1 start here -->
+
+  <section>
+      <div class="lightpart container flex justify-content-center py-20 px-10 mt-16 md:flex-row items-center">
+          <div class="part1 flex-1 ps-15">
+            <img src="./images/3.png" alt="">
+          </div>
+          <div class="part2 flex-1 ps-15">
+            <h2 class="text-4xl font-medium text-gray-900 mt-4 mb-3">Light, Fast & Powerful</h2>
+            <p class="pt-1 pb-3">
+               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+            </p>
+          </div>
+      </div>
+  </section>
+
+  <!-- light part1 end here -->
+
+  <!-- light part 2 start here-->
+
+  <section>
+    <div class="lightpart container flex justify-content-center py-20 px-10 mt-16 md:flex-row items-center">
+      <div class="part1 flex-1 ps-15">
+        <img src="./images/4.png" alt="">
+      </div>
+      <div class="part2 flex-1 ps-15">
+        <h2 class="text-4xl font-medium text-gray-900 mt-4 mb-3">Light, Fast & Powerful</h2>
+        <p class="pt-1 pb-3">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+        </p>
+      </div>
+    </div>
+  </section>
+
+    <!-- light part 2 end here -->
+
+    <!-- light part 3 start here -->
+
+  <section>
+      <div class="lightpart container flex justify-content-center py-20 px-10 mt-16 md:flex-row items-center">
+        <div class="part1 flex-1 ps-15">
+          <img src="./images/5.png" alt="">
+        </div>
+        <div class="part2 flex-1 ps-15">
+          <h2 class="text-4xl font-medium text-gray-900 mt-4 mb-3">Light, Fast & Powerful</h2>
+          <p class="pt-1 pb-3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <!-- light part 3 end here -->
+
+  <!-- price start here -->
+
+  <section>
+      <div class="price flex flex-col justify-center items-center text-center         min-h-screen bg-gray-100 px-4">
+          <h1 class="text-4xl text-gray-900 font-semibold mb-4">
+            A Price To Suit Everyone
+          </h1>
+          <p class="max-w-xl mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. 
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+          </p>
+          <h2 class="text-5xl text-gray-900 font-light mb-4">$40</h2>
+          <p class="mb-3">UI Design Kit</p>
+          <p class="mb-6">See, One price. Simple.</p>
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2  px-6 rounded">Purchase Now</button>
+      </div>
+  </section>
+
+  <!-- price end here -->
+
+  <!-- Landing start here -->
+
+  <section>
+      <div class="landing flex flex-row justify-around items-center text-center h-42 bg-indigo-50">
+        <p>©2023 Yourcompany</p>
+        <h2 class="text-4xl text-gray-900 font-semibold mb-4">Landing</h2>
+        <button class="bg-blue-600 text-white text-sm px-4 py-2 rounded hover:bg-blue-700 transition">Purchase Now</button>
+      </div>
+  </section>
+
+  <!-- landing end here -->
+
+  <!-- footer start here -->
+    <nav class="py-4 px-35 flex justify-between items-center bg-sky-50 border border-gray-200">
+  
+        <div class="flex pl-2 gap-6 text-base text-gray-800">
+          <a href="#" class="no-underline">Home</a>
+          <a href="#" class="no-underline">About</a>
+          <a href="#" class="no-underline">Contact</a>
+          
+        </div>
+
+        <div class="iconlist flex gap-8">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </nav>
+  <!-- footer end here -->
+
+  <script src="https://kit.fontawesome.com/c79920485b.js" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
